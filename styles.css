@@ -78,12 +78,49 @@ a {
   padding-top: 70px;
 }
 
-
 /* Section One - First part with white background */
 .info {
-  border: 7px solid darkred;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.info h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: "poppins", sans-serif;
+}
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 100px;
+}
+.card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+}
+.card-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+  border: 3px #3882f6 solid;
+}
+.card-text {
+  width: 120px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+/* Section Three - part with grey background */
 .quote {
   border: 7px solid darkblue;
 }
