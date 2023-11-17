@@ -122,15 +122,71 @@ a {
 
 /* Section Three - part with grey background */
 .quote {
-  border: 7px solid darkblue;
+  background-color: #e5e7eb;
+}
+
+.quote-words p {
+  padding-top: 75px;
+  padding-left: 250px;
+  padding-right: 250px;
+  margin: 0;
+  padding-bottom: 0px;
+  font-size: 24px;
+  font-style: lightitalic;
+  color: #1f2937;
+  display: flex;
+  flex-wrap: wrap;
+}
+.quote-person {
+  margin: 0;
+  padding-right: 250px;
+  padding-left: 250px;
+  font-weight: bolder;
+  text-align: right;
+  padding-bottom: 50px;
 }
 
 .bottom-section {
-  border: 7px solid orange;
+  display: flex;
+  flex-direction: column;
 }
+.action-call {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+  padding:50px;
 
+}
+.action-call-txt {
+
+  padding:20px;
+  background-color: #3882f6;
+  color:white;
+  
+}
+.action-call-btn {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:60px;
+  background-color: #3882f6;
+  
+}
+.action-call-btn button{
+    background-color: #3882f6;
+    border:2px solid white;
+    color:white;
+    border-radius: 5px;
+}
+/* Section Five - Footer section */
 .footer-section {
   background-color: #1f2937;
-
-  border: 7px solid red;
+  color: white;
+  text-align: center;
+}
+.copyright {
+  font-size: 14px;
+  color: white;
 }
